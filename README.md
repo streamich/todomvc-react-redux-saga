@@ -2,6 +2,6 @@
 
 ---
 
-Author: [Philipp Wille](https://github.com/philmein/todomvc-react-redux-saga).
+Author: [Philipp Wille](https://github.com/philmein/todomvc-react-redux-saga)
 
 
