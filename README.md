@@ -1,4 +1,4 @@
-*[TodoMVC](http://todomvc.com/) example using React, Redux and redux-saga with [Kuker emitters](https://github.com/krasimir/kuker#installing-emitters) integrated.*
+**[TodoMVC](http://todomvc.com/) example using React, Redux and redux-saga with [Kuker emitters](https://github.com/krasimir/kuker#installing-emitters) integrated.**
 
 ---
 
