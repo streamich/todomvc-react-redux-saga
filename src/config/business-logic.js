@@ -6,9 +6,14 @@ import { intents } from 'intents'
 import createSagaMiddleware from 'redux-saga'
 import { call, fork } from 'redux-saga/effects'
 import { router } from 'redux-saga-router'
+import { ReduxSagaEmitter } from 'kuker-emitters'
 
-export const configureBusinessLogic = () =>
-  createSagaMiddleware()
+const sagaEmitter = ReduxSagaEmitter()
+
+export const configureBusinessLogic = () => ({
+  saga: createSagaMiddleware({ sagaMonitor: sagaEmitter.sagaMonitor }),
+  sagaEmitter
+})
 
 export const routing = function * () {
   yield router(history, routes)

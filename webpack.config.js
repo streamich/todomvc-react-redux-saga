@@ -4,8 +4,8 @@ const config = {
   entry: ['babel-polyfill', path.join(__dirname, 'src', 'app.js')],
   devtool: 'source-map',
   output: {
-    path: __dirname,
-    filename: path.join(__dirname, 'dist', 'index.js')
+    path: __dirname + '/dist',
+    filename: 'index.js'
   },
   resolve: {
     modules: [

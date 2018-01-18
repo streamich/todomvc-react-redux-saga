@@ -6,6 +6,7 @@
   "author": "Yord <philipp.wille@web.de>",
   "license": "MIT",
   "dependencies": {
+    "kuker-emitters": "^6.7.2",
     "ramda": "^0.23.0",
     "react": "^15.4.2",
     "react-dom": "^15.4.2",
@@ -67,6 +68,6 @@
     "dev": "webpack-dev-server --progress --colors --port 9411 --config webpack.config.js",
     "test": "jest \\.test\\.js --coverage",
     "dist": "webpack --progress --colors --config webpack.config.js",
-    "start": "http-server -p 8080"
+    "start": "http-server -p 8022"
   }
 }
